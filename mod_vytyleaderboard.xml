@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<extension type="module" version="1.7" client="site" method="upgrade">
+	<name>Vyty Leaderboard</name>
+	<author>Vyty.com</author>
+	<creationDate>Octomber, 2011</creationDate>
+	<copyright>Copyright (C) 2010 Vyty.com </copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>todor@vyty.com</authorEmail>
+	<authorUrl>http://vyty.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[<p><a href="#">Vyty Leaderboard</a> displays a list of players who are part in your game.</p><p><a href="#" title="Gamification" target="_blank">Download more gamification extensions</a></p><p>Please, <a href="#" target="_blank">vote for this module</a> on Joomla! Extensions Directory!</p>]]></description>
+		
+	<files>
+		<filename module="mod_vytyleaderboard">mod_vytyleaderboard.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			    <field name="game_id" type="text" default="" label="Game ID" description="The id of the game." />
+                <field name="lb_id" type="text" default="" label="Leaderboard ID" description="The id of the leaderboard." />
+				<field name="width" type="text" default="250" label="Width" description="The width of the widget." />
+				<field name="height" type="text" default="427" label="Height" description="The height of the widget." />
+				<field name="header" type="radio" default="1" label="Header" description="Display or not the header of the widget.">
+				    <option value="1">Show</option>
+					<option value="0">Hide</option>
+				</field>
+				<field name="position" type="list" default="right" label="Position" description="The players position">
+					<option value="left">Left</option>
+					<option value="right">Right</option>
+				</field>
+				<field name="points_state" type="list" default="short" label="Points state" description="Select how to display the points. Example: (short - 1000 points will be displayed as 1K)">
+					<option value="full">Full</option>
+					<option value="short">Short</option>
+				</field>
+				<field name="imp_code" type="radio" default="1" label="Implementation Code" description="Put the implementation code. That is the code that initialize the widgets. If the code has been installed, it is not necessary to put the code again. " >
+                   <option value="0">No</option>
+                   <option value="1">Yes</option>
+                </field>
+			</fieldset>
+		</fields>
+	</config>
+	 
+</extension>
