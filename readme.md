@@ -1,4 +1,4 @@
-Vyty Leaderboard (v.1.0) for Joomla! 1.7
+Vyty Leaderboard (v.1.0) for Joomla! 1.5
 ==========================
 
 This repository contains the open source implementation of the leaderboard widget. That allows you to gamify your Joomla! website. 
