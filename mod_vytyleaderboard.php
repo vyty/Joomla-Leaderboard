@@ -13,11 +13,11 @@
 // no direct access
 defined( "_JEXEC" ) or die;
 
-static $flag = 0;
+static $vytyFlag = 0;
 
 if($params->get("imp_code")) {
     
-    if(!$flag) {
+    if(!$vytyFlag) {
         echo '<div id="vyty_root"></div>
     <script type="text/javascript">
       (function() {
@@ -29,7 +29,7 @@ if($params->get("imp_code")) {
       })();
     </script>';
     
-    $flag = 1;
+    $vytyFlag = 1;
     }
 }
 
