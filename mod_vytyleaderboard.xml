@@ -8,7 +8,7 @@
 	<authorEmail>todor@vyty.com</authorEmail>
 	<authorUrl>http://vyty.com</authorUrl>
 	<version>1.0</version>
-	<description><![CDATA[<p><a href="#">Vyty Leaderboard</a> displays a list of players who are part in your game.</p><p><a href="#" title="Gamification" target="_blank">Download more gamification extensions</a></p><p>Please, <a href="#" target="_blank">vote for this module</a> on Joomla! Extensions Directory!</p>]]></description>
+	<description><![CDATA[<p><a href="https://github.com/vyty/Joomla-Leaderboard">Vyty Leaderboard</a> displays a list of players who are part in your game.</p><p><a href="http://vyty.com/download" title="Gamification extensions" target="_blank">Download more gamification extensions</a></p><p>Please, <a href="http://extensions.joomla.org/extensions/social-web/social-channels-display/18721" target="_blank">vote for this module</a> on Joomla! Extensions Directory!</p>]]></description>
 	
 	<files>
 		<filename module="mod_vytyleaderboard">mod_vytyleaderboard.php</filename>
